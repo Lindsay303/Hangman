@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Hangman</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Custom -->
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:700" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js">
+    </script>
+  </head>
+    <body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW2E-6RSQhPtREPOCaTO9OD2Htk2bUfGUK4Xfn7deRlRLvKYEHJw">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTAo-r28FZpyp5E3vRpl2PwH7y3Hi3rgOHh2qoXLVTmZPo9_hb" alt="Star wars" class=center>
+            <h1>Hangman</h1>
+            <h2>Press any letter to get started!</h2>
+            <div class=col-sm-3 id=right>
+                <div class="counter">
+                    <p>Letters Remaining: <Span id="letRemain"></Span></p>
+                    <p>Games Won: <span id="won"></span></p>
+                    <p>Games Lost: <span id="lost"></span></p>
+                </div>
+            </div>
+            <div class=col-sm-6 id=center>
+                <br><br><br><br>
+                <p id=word>Current Word</p>
+            </div>
+            <div class=col-sm-3 id="left">
+                <p>Letters Guessed: <span  id="letGuessed"></span></p>
+            </div>
+
+    </body>
+</html>
